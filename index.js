@@ -4,7 +4,7 @@ const introduce = function() {
     console.log("Je m'appelle " + this.prenom + " et je suis le " + this.poste + " de l'équipe !");
 };
 const workWith = function() {
-    console.log("Je travail avec " + this.collaborateurs.slice(0, -2).join(', ') + (this.collaborateurs.length > 2 ? ', ' : '') + this.collaborateurs.slice(-2).join(' et '));
+    console.log("Je travaille avec " + this.collaborateurs.slice(0, -2).join(', ') + (this.collaborateurs.length > 2 ? ', ' : '') + this.collaborateurs.slice(-2).join(' et '));
 };
 
 const equipe = [
