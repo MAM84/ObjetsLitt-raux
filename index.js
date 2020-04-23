@@ -42,8 +42,8 @@ const equipe = [
         "workWith": workWith
     },
     {
-        "prenom": "El-hadji",
-        "age": 30,
+        "prenom": "Marion",
+        "age": 35,
         "poste": "chef de projet",
         "langages": [
             "HTML",
